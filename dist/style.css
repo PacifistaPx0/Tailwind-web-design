@@ -447,6 +447,13 @@ h1,
   line-height: 1.25;
 }
 
+a {
+  color: inherit;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -943,7 +950,7 @@ h1,
   --color-neutral-500: hsla(227, 12%, 61%, 1);
   --color-neutral-900: hsla(233, 12%, 13%, 1);
   --font-family: "Be Vietnam Pro", sans-serif;
-  --font-size: 16px;
+  --font-size: 24px;
   --font-color-body: var(--color-neutral-500);
   --font-color-title: var(--color-primary-800);
   --font-weight-light: 400;
